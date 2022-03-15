@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Focus Assistant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Daily Progress</string>
+    <string name="Tasks">Tasks</string>
+    <string name="action_1">START</string>
+    <string name="action_2">STOP</string>
+    <string name="today_s_goal_is">Today\'s Goal is 6 Hrs</string>
+    <string name="textview">TextView</string>
+    <string name="textview1">TextView</string>
+    <string name="pause">Pause</string>
+</resources>
