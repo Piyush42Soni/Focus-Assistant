@@ -47,8 +47,8 @@ class Content : Fragment(){
         startTime=0
         endTime=0
         binding=DataBindingUtil.inflate(inflater, R.layout.fragment_content, container, false)
+        viewModel.binding=binding
         binding.materialButton.setOnClickListener{startTime = System.currentTimeMillis().toInt() }
-        var i = 0
         val mCountDownTimer=viewModel.progress(binding.progressBar)
         binding.materialButton.setOnClickListener {
             mCountDownTimer.start()
@@ -116,6 +116,7 @@ class Content : Fragment(){
                     }
                 }).show()
         }
+
         return binding.root
     }
 }
